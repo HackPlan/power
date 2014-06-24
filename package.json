@@ -1,0 +1,36 @@
+{
+  "name": "power",
+  "description": "Zero-configuration Static server for Mac OS X",
+  "version": "0.0.1",
+  "author": "Unstop",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/hackplan/pow.git"
+  },
+  "bin": {
+    "power": "./bin/power"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {
+    "async": "0.1.22",
+    "connect": "^1.8.7",
+    "dnsserver": "https://github.com/sstephenson/dnsserver.js/tarball/4f2c713b2e",
+    "harp": "^0.12.1",
+    "log": ">= 1.1.1",
+    "nack": "~> 0.16",
+    "request": "~> 2.16"
+  },
+  "devDependencies": {
+    "eco": "~> 1.1.0",
+    "nodeunit": "0.8.0",
+    "coffee-script": "1.6.2",
+    "docco": "0.6.3"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "start": "cake start",
+    "stop": "cake stop"
+  }
+}
