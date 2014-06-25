@@ -44,7 +44,7 @@
 
 # Download the requested version of Power and unpack it.
 
-      curl -s http://power.hackplan.com/versions/$VERSION.tar.gz | tar xzf -
+      curl -s http://hackplan.qiniudn.com/power_$VERSION.tar.gz | tar xzf -
 
 
 # Update the Current symlink to point to the new version.

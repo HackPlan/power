@@ -29,8 +29,8 @@ else
   tar czf "$VERSION.tar.gz" "$VERSION"
   mkdir -p "$DIST"
   cd "$DIST"
-  mv "$ROOT/$VERSION.tar.gz" "$DIST"
-  echo "$DIST/$VERSION.tar.gz"
+  mv "$ROOT/$VERSION.tar.gz" "$DIST/power_$VERSION.tar.gz"
+  echo "$DIST/power_$VERSION.tar.gz"
 fi
 
 rm -fr "$ROOT"
