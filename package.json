@@ -1,11 +1,11 @@
 {
   "name": "power",
-  "description": "Zero-configuration Static server for Mac OS X",
+  "description": "Zero-configuration static web server for Mac OS X",
   "version": "0.0.1",
-  "author": "Unstop",
+  "author": "Sun Liang",
   "repository": {
     "type": "git",
-    "url": "http://github.com/hackplan/pow.git"
+    "url": "http://github.com/hackplan/power.git"
   },
   "bin": {
     "power": "./bin/power"
