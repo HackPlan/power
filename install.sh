@@ -111,7 +111,7 @@
         # Check to see if the server is running at all.
         function check_status() {
           sleep 1
-          curl -sH host:power "localhost:$POWER_HTTP_PORT/status.json" | grep -c "$VERSION" >/dev/null
+          curl -sH host:power "127.0.0.1:$POWER_HTTP_PORT/status.json" | grep -c "$VERSION" >/dev/null
         }
 
         # Attempt to connect to Power via each configured domain. If a

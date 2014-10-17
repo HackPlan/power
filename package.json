@@ -1,7 +1,7 @@
 {
   "name": "power",
   "description": "Zero-configuration static web server for Mac OS X",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Sun Liang",
   "repository": {
     "type": "git",
